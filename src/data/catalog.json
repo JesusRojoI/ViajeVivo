@@ -1,0 +1,738 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Experiencias de Bienestar",
+      "slug": "experiencias-bienestar"
+    },
+    {
+      "id": 2,
+      "name": "Itinerarios de Viaje",
+      "slug": "itinerarios-viaje"
+    },
+    {
+      "id": 3,
+      "name": "Tours Locales",
+      "slug": "tours-locales"
+    },
+    {
+      "id": 4,
+      "name": "Talleres Artesanales",
+      "slug": "talleres-artesanales"
+    },
+    {
+      "id": 5,
+      "name": "Servicios Adicionales",
+      "slug": "servicios-adicionales"
+    },
+    {
+      "id": 6,
+      "name": "Paquetes Combinados",
+      "slug": "paquetes-combinados"
+    },
+    {
+      "id": 7,
+      "name": "Planes Premium Travel Concierge",
+      "slug": "premium-travel-concierge"
+    }
+  ],
+  "experiences": [
+    {
+      "id": 1,
+      "title": "Sesión de Yoga con Meditación Sonora",
+      "slug": "yoga-meditacion-tepoztlan",
+      "category_id": 1,
+      "location": "Tepoztlán",
+      "description": "Clase de yoga, meditación guiada, terapia con cuencos sonoros, espacio natural de relajación. Precio por persona con IVA incluido.",
+      "important_info": {
+        "codigo": "TRG-EB07",
+        "requiere_destino": false
+      },
+      "images": [
+        "/images/experience-01.jpg"
+      ],
+      "price": 800.0,
+      "category": "experiencias-bienestar"
+    },
+    {
+      "id": 2,
+      "title": "Itinerario Express",
+      "slug": "itinerario-express",
+      "category_id": 2,
+      "location": "A elección",
+      "description": "Escapadas de fin de semana o viajes de 1 a 3 días. Ruta básica del destino, 3-6 lugares recomendados, 2-4 recomendaciones de restaurantes locales, actividades principales. El cliente confirma su destino. Precio con IVA incluido.",
+      "important_info": {
+        "codigo": "TRG-IT01",
+        "requiere_destino": true
+      },
+      "images": [
+        "/images/experience-02.jpg"
+      ],
+      "price": 900.0,
+      "category": "itinerarios-viaje"
+    },
+    {
+      "id": 3,
+      "title": "Experiencias Indígenas Comunitarias",
+      "slug": "experiencias-indigenas-comunitarias",
+      "category_id": 3,
+      "location": "Varios",
+      "description": "Actividad cultural con comunidad local, demostración de tradiciones o artesanías, taller participativo, degustación tradicional, guía comunitario. Duración: 2-4 horas. Precio por persona con IVA incluido.",
+      "important_info": {
+        "codigo": "TRG-TL05",
+        "requiere_destino": false
+      },
+      "images": [
+        "/images/experience-03.jpg"
+      ],
+      "price": 900.0,
+      "category": "tours-locales"
+    },
+    {
+      "id": 4,
+      "title": "Clase de Yoga en la Naturaleza",
+      "slug": "yoga-naturaleza-tulum",
+      "category_id": 1,
+      "location": "Tulum",
+      "description": "Sesión guiada de yoga, meditación o respiración, uso de tapetes, sesión en playa o selva. Duración: 1-2 horas. Precio por persona con IVA incluido.",
+      "important_info": {
+        "codigo": "TRG-EB03",
+        "requiere_destino": false
+      },
+      "images": [
+        "/images/experience-04.jpg"
+      ],
+      "price": 1000.0,
+      "category": "experiencias-bienestar"
+    },
+    {
+      "id": 5,
+      "title": "Guía Local en Pueblos Mágicos",
+      "slug": "guia-local-pueblos-magicos",
+      "category_id": 3,
+      "location": "Varios",
+      "description": "Recorrido por el centro histórico, explicación cultural e histórica, visita a 3-5 puntos de interés, recomendaciones de restaurantes y tiendas locales, guía certificado. Duración: 2-3 horas. Precio por persona con IVA incluido.",
+      "important_info": {
+        "codigo": "TRG-TL04",
+        "requiere_destino": false
+      },
+      "images": [
+        "/images/experience-05.jpg"
+      ],
+      "price": 1200.0,
+      "category": "tours-locales"
+    },
+    {
+      "id": 6,
+      "title": "Temazcal Comunitario Tradicional",
+      "slug": "temazcal-comunitario-san-cristobal",
+      "category_id": 1,
+      "location": "San Cristóbal de las Casas",
+      "description": "Ritual tradicional en grupo, hierbas medicinales, té herbal posterior, guía local. Precio por persona con IVA incluido.",
+      "important_info": {
+        "codigo": "TRG-EB04",
+        "requiere_destino": false
+      },
+      "images": [
+        "/images/experience-06.jpg"
+      ],
+      "price": 1250.0,
+      "category": "experiencias-bienestar"
+    },
+    {
+      "id": 7,
+      "title": "Itinerario Económico Digital",
+      "slug": "itinerario-economico-digital",
+      "category_id": 2,
+      "location": "A elección",
+      "description": "Guía organizada para viajeros. PDF descargable, mapa de lugares, lista de hospedajes económicos, recomendación de 5 restaurantes locales. El cliente confirma su destino. Precio con IVA incluido.",
+      "important_info": {
+        "codigo": "TRG-IT02",
+        "requiere_destino": false
+      },
+      "images": [
+        "/images/experience-07.jpg"
+      ],
+      "price": 1350.0,
+      "category": "itinerarios-viaje"
+    },
+    {
+      "id": 8,
+      "title": "Itinerario para Viajeros Mochileros",
+      "slug": "itinerario-mochileros",
+      "category_id": 2,
+      "location": "A elección",
+      "description": "Transporte económico, hostales and actividades baratas. Transporte público sugerido, hostales, rutas a pie, actividades gratuitas. El cliente confirma su destino. Precio con IVA incluido.",
+      "important_info": {
+        "codigo": "TRG-IT03",
+        "requiere_destino": false
+      },
+      "images": [
+        "/images/experience-08.jpg"
+      ],
+      "price": 1500.0,
+      "category": "itinerarios-viaje"
+    },
+    {
+      "id": 9,
+      "title": "Taller de Papel Amate",
+      "slug": "taller-papel-amate-san-pablito",
+      "category_id": 4,
+      "location": "San Pablito",
+      "description": "Proceso artesanal, elaboración de papel, creación de pieza artesanal sencilla, recorrido por talleres comunitarios. Duración: 2-3 horas. Precio por persona con IVA incluido.",
+      "important_info": {
+        "codigo": "TRG-TA07",
+        "requiere_destino": false
+      },
+      "images": [
+        "/images/experience-09.jpg"
+      ],
+      "price": 1500.0,
+      "category": "talleres-artesanales"
+    },
+    {
+      "id": 10,
+      "title": "Taller de Textiles Tradicionales",
+      "slug": "taller-textiles-zinacantan",
+      "category_id": 4,
+      "location": "Zinacantán",
+      "description": "Telar de cintura, bordados tradicionales, tejido básico, vestimenta tradicional. Duración: 2-3 horas. Precio por persona con IVA incluido.",
+      "important_info": {
+        "codigo": "TRG-TA04",
+        "requiere_destino": false
+      },
+      "images": [
+        "/images/experience-10.jpg"
+      ],
+      "price": 1500.0,
+      "category": "talleres-artesanales"
+    },
+    {
+      "id": 11,
+      "title": "Recomendaciones de Renta de Autos",
+      "slug": "recomendaciones-renta-autos",
+      "category_id": 5,
+      "location": "Nacional",
+      "description": "Comparación de agencias, recomendaciones de seguros, reserva anticipada. Precio con IVA incluido.",
+      "important_info": {
+        "codigo": "TRG-SV01",
+        "requiere_destino": false
+      },
+      "images": [
+        "/images/experience-11.jpg"
+      ],
+      "price": 1600.0,
+      "category": "servicios-adicionales"
+    },
+    {
+      "id": 12,
+      "title": "Experiencia Huasteca Cultural",
+      "slug": "huasteca-cultural-xilitla",
+      "category_id": 3,
+      "location": "Xilitla",
+      "description": "Música huasteca, baile tradicional, degustación de comida regional, tradiciones locales. Duración: 2-4 horas. Precio por persona con IVA incluido.",
+      "important_info": {
+        "codigo": "TRG-TA08",
+        "requiere_destino": false
+      },
+      "images": [
+        "/images/experience-12.jpg"
+      ],
+      "price": 1700.0,
+      "category": "tours-locales"
+    },
+    {
+      "id": 13,
+      "title": "Experiencia Purépecha Cultural",
+      "slug": "purepecha-cultural-tzintzuntzan",
+      "category_id": 3,
+      "location": "Tzintzuntzan",
+      "description": "Recorrido por comunidad indígena, tradiciones purépechas, artesanía local, degustación de comida tradicional. Duración: 2-4 horas. Precio por persona con IVA incluido.",
+      "important_info": {
+        "codigo": "TRG-TA05",
+        "requiere_destino": false
+      },
+      "images": [
+        "/images/experience-13.jpg"
+      ],
+      "price": 1800.0,
+      "category": "tours-locales"
+    },
+    {
+      "id": 14,
+      "title": "Taller de Barro Tradicional",
+      "slug": "taller-barro-coyotepec",
+      "category_id": 4,
+      "location": "San Bartolo Coyotepec",
+      "description": "Demostración de elaboración de barro negro, taller de modelado, técnicas tradicionales, recorrido por taller artesanal. Duración: 2-3 horas. Precio por persona con IVA incluido.",
+      "important_info": {
+        "codigo": "TRG-TA01",
+        "requiere_destino": false
+      },
+      "images": [
+        "/images/experience-14.jpg"
+      ],
+      "price": 1800.0,
+      "category": "talleres-artesanales"
+    },
+    {
+      "id": 15,
+      "title": "Taller de Máscaras Tradicionales",
+      "slug": "taller-mascaras-tocuaro",
+      "category_id": 4,
+      "location": "Tócuaro",
+      "description": "Tallado en madera, uso cultural de las máscaras, pintura básica, interacción con artesanos. Duración: 2-3 horas. Precio por persona con IVA incluido.",
+      "important_info": {
+        "codigo": "TRG-TA06",
+        "requiere_destino": false
+      },
+      "images": [
+        "/images/experience-15.jpg"
+      ],
+      "price": 2000.0,
+      "category": "talleres-artesanales"
+    },
+    {
+      "id": 16,
+      "title": "Tour de Mezcal",
+      "slug": "tour-mezcal-pueblos",
+      "category_id": 6,
+      "location": "Pueblos Pequeños",
+      "description": "Visita a 1-2 palenques artesanales, explicación del proceso del mezcal, degustación de 3-5 variedades, guía mezcalero, transporte local, compra directa al productor. Duración: 3-5 horas. Precio por persona con IVA incluido.",
+      "important_info": {
+        "codigo": "TRG-TL03",
+        "requiere_destino": false
+      },
+      "images": [
+        "/images/experience-16.jpg"
+      ],
+      "price": 2000.0,
+      "category": "paquetes-combinados"
+    },
+    {
+      "id": 17,
+      "title": "Taller de Talabartería",
+      "slug": "taller-talabarteria-leon",
+      "category_id": 4,
+      "location": "León",
+      "description": "Trabajo en cuero, proceso artesanal, actividad sencilla participativa, visita a taller local. Duración: 2-3 horas. Precio por persona con IVA incluido.",
+      "important_info": {
+        "codigo": "TRG-TA09",
+        "requiere_destino": false
+      },
+      "images": [
+        "/images/experience-17.jpg"
+      ],
+      "price": 2200.0,
+      "category": "talleres-artesanales"
+    },
+    {
+      "id": 18,
+      "title": "Taller de Alebrijes",
+      "slug": "taller-alebrijes-tilcajete",
+      "category_id": 4,
+      "location": "San Martín Tilcajete",
+      "description": "Arte de los alebrijes, tallado en madera, pintura básica de figura artesanal, interacción con artesanos locales. Duración: 2-3 horas. Precio por persona con IVA incluido.",
+      "important_info": {
+        "codigo": "TRG-TA02",
+        "requiere_destino": false
+      },
+      "images": [
+        "/images/experience-18.jpg"
+      ],
+      "price": 2200.0,
+      "category": "talleres-artesanales"
+    },
+    {
+      "id": 19,
+      "title": "Experiencia de Bienestar en Cenotes",
+      "slug": "bienestar-cenotes-valladolid",
+      "category_id": 1,
+      "location": "Valladolid",
+      "description": "Meditación guiada, yoga en cenote o naturaleza, baño en cenote, bebidas naturales. Precio por persona con IVA incluido.",
+      "important_info": {
+        "codigo": "TRG-EB10",
+        "requiere_destino": false
+      },
+      "images": [
+        "/images/experience-19.jpg"
+      ],
+      "price": 2400.0,
+      "category": "experiencias-bienestar"
+    },
+    {
+      "id": 20,
+      "title": "Tour de 2 Cenotes",
+      "slug": "tour-2-cenotes-yucatan",
+      "category_id": 3,
+      "location": "Yucatán",
+      "description": "Transporte local, entrada a 2 cenotes naturales, tiempo libre para nadar, chaleco salvavidas, guía local, agua o bebida hidratante, seguro básico. Duración: 4-6 horas. Precio por persona con IVA incluido.",
+      "important_info": {
+        "codigo": "TRG-TL01",
+        "requiere_destino": false
+      },
+      "images": [
+        "/images/experience-20.jpg"
+      ],
+      "price": 2500.0,
+      "category": "tours-locales"
+    },
+    {
+      "id": 21,
+      "title": "Experiencia de Cocina Tradicional Maya",
+      "slug": "cocina-tradicional-maya-merida",
+      "category_id": 6,
+      "location": "Mérida",
+      "description": "Preparación de platillos tradicionales, ingredientes regionales, degustación, introducción a tradiciones culinarias mayas. Duración: 3-4 horas. Precio por persona con IVA incluido.",
+      "important_info": {
+        "codigo": "TRG-TA03",
+        "requiere_destino": false
+      },
+      "images": [
+        "/images/experience-21.jpg"
+      ],
+      "price": 2500.0,
+      "category": "paquetes-combinados"
+    },
+    {
+      "id": 22,
+      "title": "Experiencia de Temazcal Tradicional",
+      "slug": "temazcal-tradicional-tepoztlan",
+      "category_id": 1,
+      "location": "Tepoztlán",
+      "description": "Ceremonia de temazcal guiada, hierbas medicinales, cantos o ritual tradicional, bebidas herbales. Duración: 1-2 horas. Precio por persona con IVA incluido.",
+      "important_info": {
+        "codigo": "TRG-EB01",
+        "requiere_destino": false
+      },
+      "images": [
+        "/images/experience-22.jpg"
+      ],
+      "price": 2500.0,
+      "category": "experiencias-bienestar"
+    },
+    {
+      "id": 23,
+      "title": "Taller de Cerámica Tradicional",
+      "slug": "taller-ceramica-mata-ortiz",
+      "category_id": 4,
+      "location": "Mata Ortiz",
+      "description": "Técnicas de cerámica, modelado y decoración, creación básica de pieza artesanal, interacción con artesanos. Duración: 2-3 horas. Precio por persona con IVA incluido.",
+      "important_info": {
+        "codigo": "TRG-TA10",
+        "requiere_destino": false
+      },
+      "images": [
+        "/images/experience-23.jpg"
+      ],
+      "price": 2500.0,
+      "category": "talleres-artesanales"
+    },
+    {
+      "id": 24,
+      "title": "Itinerario de Pueblos Mágicos",
+      "slug": "itinerario-pueblos-magicos",
+      "category_id": 2,
+      "location": "A elección",
+      "description": "Rutas entre pueblos pequeños. Rutas de carretera, hospedajes boutique, experiencias culturales. Ejemplos: Real de Catorce, Cuatro Ciénegas, Xilitla. Precio con IVA incluido.",
+      "important_info": {
+        "codigo": "TRG-IT05",
+        "requiere_destino": false
+      },
+      "images": [
+        "/images/experience-24.jpg"
+      ],
+      "price": 2800.0,
+      "category": "itinerarios-viaje"
+    },
+    {
+      "id": 25,
+      "title": "Itinerario Gastronómico",
+      "slug": "itinerario-gastronomico",
+      "category_id": 2,
+      "location": "A elección",
+      "description": "Exploración de comida regional. Recomendación de 5-10 restaurantes locales, mercados tradicionales, tours gastronómicos y comida típica del destino. El cliente confirma su destino. Precio con IVA incluido.",
+      "important_info": {
+        "codigo": "TRG-IT04",
+        "requiere_destino": false
+      },
+      "images": [
+        "/images/experience-25.jpg"
+      ],
+      "price": 3100.0,
+      "category": "itinerarios-viaje"
+    },
+    {
+      "id": 26,
+      "title": "Itinerario para Road Trip",
+      "slug": "itinerario-road-trip",
+      "category_id": 2,
+      "location": "A elección",
+      "description": "Viajes en carretera. Rutas panorámicas, paradas recomendadas, gasolineras, hospedajes en carretera. Precio con IVA incluido.",
+      "important_info": {
+        "codigo": "TRG-IT08",
+        "requiere_destino": false
+      },
+      "images": [
+        "/images/experience-26.jpg"
+      ],
+      "price": 3200.0,
+      "category": "itinerarios-viaje"
+    },
+    {
+      "id": 27,
+      "title": "Tour Gastronómico",
+      "slug": "tour-gastronomico-oaxaca",
+      "category_id": 6,
+      "location": "Oaxaca",
+      "description": "Recorrido por mercados y zonas gastronómicas, degustación de 4 a 6 platillos típicos, explicación cultural, bebidas tradicionales, guía gastronómico, visita a cocinas tradicionales. Duración: 4 horas. Precio por persona con IVA incluido.",
+      "important_info": {
+        "codigo": "TRG-TL02",
+        "requiere_destino": false
+      },
+      "images": [
+        "/images/experience-27.jpg"
+      ],
+      "price": 3500.0,
+      "category": "paquetes-combinados"
+    },
+    {
+      "id": 28,
+      "title": "Itinerario Cultural e Histórico",
+      "slug": "itinerario-cultural-historico",
+      "category_id": 2,
+      "location": "A elección",
+      "description": "Museos, zonas arqueológicas y sitios históricos. Guías culturales, rutas históricas, museos y sitios arqueológicos. Ejemplos: Teotihuacan, Monte Alban, Palenque. Precio con IVA incluido.",
+      "important_info": {
+        "codigo": "TRG-IT07",
+        "requiere_destino": false
+      },
+      "images": [
+        "/images/experience-28.jpg"
+      ],
+      "price": 3500.0,
+      "category": "itinerarios-viaje"
+    },
+    {
+      "id": 29,
+      "title": "Circuito de Spa y Relajación",
+      "slug": "circuito-spa-playa-del-carmen",
+      "category_id": 1,
+      "location": "Playa del Carmen",
+      "description": "Sauna y vapor, piscinas de hidroterapia, mini masaje o exfoliación, bebidas y descanso. Duración: 3-6 horas. Precio por persona con IVA incluido.",
+      "important_info": {
+        "codigo": "TRG-EB02",
+        "requiere_destino": false
+      },
+      "images": [
+        "/images/experience-29.jpg"
+      ],
+      "price": 3600.0,
+      "category": "experiencias-bienestar"
+    },
+    {
+      "id": 30,
+      "title": "Experiencia de Spa Natural con Temazcal",
+      "slug": "spa-natural-temazcal-bacalar",
+      "category_id": 1,
+      "location": "Bacalar",
+      "description": "Temazcal, masaje relajante, uso de laguna o piscina natural, bebidas naturales. Precio por persona con IVA incluido.",
+      "important_info": {
+        "codigo": "TRG-EB08",
+        "requiere_destino": false
+      },
+      "images": [
+        "/images/experience-30.jpg"
+      ],
+      "price": 3600.0,
+      "category": "experiencias-bienestar"
+    },
+    {
+      "id": 31,
+      "title": "Itinerario Familiar",
+      "slug": "itinerario-familiar",
+      "category_id": 2,
+      "location": "A elección",
+      "description": "Viajes con niños. Parques, actividades educativas y restaurantes familiares. Precio con IVA incluido.",
+      "important_info": {
+        "codigo": "TRG-IT10",
+        "requiere_destino": false
+      },
+      "images": [
+        "/images/experience-31.jpg"
+      ],
+      "price": 3800.0,
+      "category": "itinerarios-viaje"
+    },
+    {
+      "id": 32,
+      "title": "Itinerario de Aventura",
+      "slug": "itinerario-aventura",
+      "category_id": 3,
+      "location": "A elección",
+      "description": "Naturaleza y deportes extremos. Trekking, cascadas, cuevas, rafting o rappel. Destinos: Huasteca Potosina, Sierra Tarahumara, Selva Lacandona. Precio con IVA incluido.",
+      "important_info": {
+        "codigo": "TRG-IT06",
+        "requiere_destino": false
+      },
+      "images": [
+        "/images/experience-32.jpg"
+      ],
+      "price": 4000.0,
+      "category": "tours-locales"
+    },
+    {
+      "id": 33,
+      "title": "Paquete Explorador",
+      "slug": "paquete-explorador",
+      "category_id": 7,
+      "location": "Nacional",
+      "description": "Itinerario personalizado, recomendaciones locales, mapa interactivo. Precio con IVA incluido.",
+      "important_info": {
+        "codigo": "TRG-PQ01",
+        "requiere_destino": false
+      },
+      "images": [
+        "/images/experience-33.jpg"
+      ],
+      "price": 4500.0,
+      "category": "premium-travel-concierge"
+    },
+    {
+      "id": 34,
+      "title": "Experiencia de Temazcal en Resort",
+      "slug": "temazcal-resort-riviera-maya",
+      "category_id": 1,
+      "location": "Riviera Maya",
+      "description": "Ceremonia guiada por chamán, ritual con copal, bebidas herbales, acceso a instalaciones del spa. Precio por persona con IVA incluido.",
+      "important_info": {
+        "codigo": "TRG-EB06",
+        "requiere_destino": false
+      },
+      "images": [
+        "/images/experience-34.jpg"
+      ],
+      "price": 4700.0,
+      "category": "experiencias-bienestar"
+    },
+    {
+      "id": 35,
+      "title": "Itinerario Romántico",
+      "slug": "itinerario-romantico",
+      "category_id": 2,
+      "location": "A elección",
+      "description": "Parejas o luna de miel. Hoteles boutique, restaurantes románticos, experiencias privadas. Destinos: San Miguel de Allende, Valle de Bravo, Bacalar. Precio con IVA incluido.",
+      "important_info": {
+        "codigo": "TRG-IT09",
+        "requiere_destino": false
+      },
+      "images": [
+        "/images/experience-35.jpg"
+      ],
+      "price": 6000.0,
+      "category": "itinerarios-viaje"
+    },
+    {
+      "id": 36,
+      "title": "Plan Travel Planner Profesional",
+      "slug": "travel-planner-profesional",
+      "category_id": 5,
+      "location": "Nacional",
+      "description": "Itinerario detallado, mapas interactivos, asesoría por videollamada, recomendaciones personalizadas. Precio con IVA incluido.",
+      "important_info": {
+        "codigo": "TRG-PP01",
+        "requiere_destino": false
+      },
+      "images": [
+        "/images/experience-36.jpg"
+      ],
+      "price": 8000.0,
+      "category": "servicios-adicionales"
+    },
+    {
+      "id": 37,
+      "title": "Plan Concierge de Viaje",
+      "slug": "concierge-de-viaje",
+      "category_id": 5,
+      "location": "Nacional",
+      "description": "Planificación completa, reservas de hoteles (puede llevar costo adicional), reservas de tours (puede llevar costo adicional), asistencia durante el viaje. Precio con IVA incluido.",
+      "important_info": {
+        "codigo": "TRG-PP02",
+        "requiere_destino": false
+      },
+      "images": [
+        "/images/experience-37.jpg"
+      ],
+      "price": 8900.0,
+      "category": "servicios-adicionales"
+    },
+    {
+      "id": 38,
+      "title": "Paquete Aventura Total",
+      "slug": "paquete-aventura-total",
+      "category_id": 7,
+      "location": "Nacional",
+      "description": "Itinerario, reservas de tours (puede llevar costo adicional), guía local. Precio con IVA incluido.",
+      "important_info": {
+        "codigo": "TRG-PQ02",
+        "requiere_destino": false
+      },
+      "images": [
+        "/images/experience-38.jpg"
+      ],
+      "price": 12000.0,
+      "category": "premium-travel-concierge"
+    },
+    {
+      "id": 39,
+      "title": "Retiro Corto de Yoga y Meditación",
+      "slug": "retiro-yoga-malinalco",
+      "category_id": 1,
+      "location": "Malinalco",
+      "description": "Clases diarias de yoga, meditación guiada, alimentación saludable, actividades de bienestar. Precio por persona con IVA incluido.",
+      "important_info": {
+        "codigo": "TRG-EB05",
+        "requiere_destino": false
+      },
+      "images": [
+        "/images/experience-39.jpg"
+      ],
+      "price": 12000.0,
+      "category": "experiencias-bienestar"
+    },
+    {
+      "id": 40,
+      "title": "Paquete Viaje Completo",
+      "slug": "paquete-viaje-completo",
+      "category_id": 7,
+      "location": "Nacional",
+      "description": "Planificación total, reservas (puede llevar costo adicional), soporte durante el viaje. Precio con IVA incluido.",
+      "important_info": {
+        "codigo": "TRG-PQ03",
+        "requiere_destino": false
+      },
+      "images": [
+        "/images/experience-40.jpg"
+      ],
+      "price": 35000.0,
+      "category": "premium-travel-concierge"
+    },
+    {
+      "id": 41,
+      "title": "Retiro de Yoga frente al Mar",
+      "slug": "retiro-yoga-huatulco",
+      "category_id": 1,
+      "location": "Huatulco",
+      "description": "Hospedaje, clases diarias de yoga, meditación, temazcal y talleres. Duración: 5-7 días. Precio por persona con IVA incluido.",
+      "important_info": {
+        "codigo": "TRG-EB09",
+        "requiere_destino": false
+      },
+      "images": [
+        "/images/experience-41.jpg"
+      ],
+      "price": 35000.0,
+      "category": "experiencias-bienestar"
+    }
+  ]
+}

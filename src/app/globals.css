@@ -1,0 +1,151 @@
+/* globals.css — ViajeVivo · Selva Cítrica · Tailwind CSS 4 */
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..900;1,9..144,400..900&family=Plus+Jakarta+Sans:wght@400..800&display=swap');
+@import "tailwindcss";
+
+@theme inline {
+  --color-background: hsl(var(--background));
+  --color-foreground: hsl(var(--foreground));
+  --color-card: hsl(var(--card));
+  --color-card-foreground: hsl(var(--card-foreground));
+  --color-popover: hsl(var(--popover));
+  --color-popover-foreground: hsl(var(--popover-foreground));
+  --color-primary: hsl(var(--primary));
+  --color-primary-foreground: hsl(var(--primary-foreground));
+  --color-secondary: hsl(var(--secondary));
+  --color-secondary-foreground: hsl(var(--secondary-foreground));
+  --color-accent: hsl(var(--accent));
+  --color-accent-foreground: hsl(var(--accent-foreground));
+  --color-muted: hsl(var(--muted));
+  --color-muted-foreground: hsl(var(--muted-foreground));
+  --color-destructive: hsl(var(--destructive));
+  --color-destructive-foreground: hsl(var(--destructive-foreground));
+  --color-border: hsl(var(--border));
+  --color-input: hsl(var(--input));
+  --color-ring: hsl(var(--ring));
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --font-sans: 'Plus Jakarta Sans', system-ui, sans-serif;
+  --font-serif: 'Fraunces', Georgia, serif;
+}
+
+@layer base {
+  :root {
+    /* ViajeVivo Palette: Selva Cítrica (crema, tinta azul-verde, esmeralda, lima) */
+    --background: 72 27% 96%;   /* Crema cálido #F7F8F3 */
+    --foreground: 201 59% 10%;  /* Tinta profunda #0B1F2A */
+    --card: 0 0% 100%;
+    --card-foreground: 201 59% 10%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 201 59% 10%;
+
+    /* Esmeralda #0B6E4F: acción principal */
+    --primary: 161 82% 24%;
+    --primary-foreground: 0 0% 100%;
+
+    /* Verde intenso #0FA37B: acento secundario */
+    --secondary: 164 83% 35%;
+    --secondary-foreground: 0 0% 100%;
+
+    /* Lima eléctrica #B7F34C: energía de marca */
+    --accent: 82 87% 63%;
+    --accent-foreground: 201 59% 10%;
+
+    --muted: 150 20% 91%;
+    --muted-foreground: 201 18% 42%;
+
+    --destructive: 0 72% 46%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 160 18% 85%;
+    --input: 160 18% 85%;
+    --ring: 161 82% 24%;
+
+    /* Esquinas más contenidas: aspecto editorial */
+    --radius: 0.875rem;
+  }
+
+  .dark {
+    --background: 201 59% 8%;
+    --foreground: 72 27% 96%;
+    --card: 201 50% 12%;
+    --card-foreground: 72 27% 96%;
+    --popover: 201 50% 12%;
+    --popover-foreground: 72 27% 96%;
+    --primary: 82 87% 63%;
+    --primary-foreground: 201 59% 10%;
+    --secondary: 164 60% 42%;
+    --secondary-foreground: 0 0% 100%;
+    --muted: 201 35% 18%;
+    --muted-foreground: 150 12% 65%;
+    --border: 201 30% 20%;
+    --input: 201 30% 20%;
+    --ring: 82 87% 63%;
+  }
+
+  * { @apply border-border; }
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-sans);
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-serif);
+    @apply tracking-[-0.045em];
+    font-optical-sizing: auto;
+    font-weight: 800;
+  }
+}
+
+@layer utilities {
+  /* Líneas finas en lugar de sombras: look editorial, sin efecto "tarjeta flotante" */
+  .vv-offset-shadow {
+    box-shadow: 0 3px 0 0 hsl(var(--primary) / 0.22);
+  }
+  .vv-offset-shadow-sm {
+    box-shadow: 0 2px 0 0 hsl(var(--primary) / 0.18);
+  }
+  .vv-offset-shadow-light {
+    box-shadow: 0 3px 0 0 hsl(var(--accent));
+  }
+
+  /* Trama de hoja rayada en lugar de puntos */
+  .vv-dot-grid {
+    background-image: linear-gradient(to bottom, hsl(var(--primary) / 0.13) 1px, transparent 1px);
+    background-size: 100% 46px;
+  }
+
+  /* Palabra destacada: serif cursiva confilete lime */
+  .vv-highlight {
+    font-style: italic;
+    background-image: linear-gradient(to top, hsl(var(--accent)) 0 3px, transparent 3px);
+    padding-bottom: 0.08em;
+  }
+
+  .vv-label {
+    @apply text-[11px] font-extrabold uppercase tracking-[0.22em];
+  }
+
+  .vv-marquee-track {
+    animation: vvMarquee 26s linear infinite;
+  }
+}
+
+@keyframes vvMarquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-up {
+  animation: fadeUp 0.7s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Scrollbar de marca */
+::-webkit-scrollbar { width: 9px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: hsl(var(--primary) / 0.35); border-radius: 0; }
+::-webkit-scrollbar-thumb:hover { background: hsl(var(--primary)); }
